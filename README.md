@@ -262,7 +262,7 @@ Four independent analyzers process the Document in parallel:
 Combines signals using explicit, auditable rules:
 
 ```python
-# Simplified scoring logic
+# Simplified scoring logics
 base_risk = 0.55 * linguistic_risk + 0.45 * statistical_risk
 # Apply source trust gate
 if source_trust < 0.35:
